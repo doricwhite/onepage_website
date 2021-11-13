@@ -60,3 +60,23 @@ header {
 }
 
 /*-------SECTION 2: -------*/
+.second-section {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.second-section p,
+h2 {
+  font-size: 125%;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*------- SECTION 3 -------*/
+.services {
+  background-color: #f2f2f2;
+}
