@@ -1,0 +1,62 @@
+/* GENERAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.group {
+  /* max-width: 1140px; */
+  margin: 0 auto;
+}
+
+/*------- BACKGROUND IMAGE -------*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/data.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/*------- SECTION 1: HEADER AREA -------*/
+.nav-info {
+  color: #fff;
+  float: right;
+  list-style: none;
+  margin: 3rem;
+  font-size: 120%;
+}
+
+.nav-info li {
+  display: inline;
+  padding-left: 1rem;
+}
+
+.header-text {
+  position: absolute;
+  width: 1140px;
+  top: 30%;
+  left: 15%;
+  color: #fff;
+  font-size: 400%;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+}
+
+.header-text p {
+  font-size: 50%;
+  /* margin-top: 1rem; */
+}
+
+/*-------SECTION 2: -------*/
