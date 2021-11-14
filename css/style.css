@@ -1,4 +1,4 @@
-/* GENERAL CSS */
+/*---------- GENERAL CSS -----------*/
 * {
   margin: 0;
   padding: 0;
@@ -13,13 +13,19 @@ body {
   font-weight: 300;
 }
 
+h1,
 h2 {
   color: #1abc9c;
+  text-align: center;
 }
 
 .group {
   /* max-width: 1140px; */
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*------- BACKGROUND IMAGE -------*/
@@ -53,25 +59,25 @@ header {
   top: 30%;
   left: 15%;
   color: #fff;
-  font-size: 400%;
-  letter-spacing: 1.5px;
+  font-size: 3rem;
+  letter-spacing: 1.3px;
   font-weight: 200;
 }
 
 .header-text p {
   font-size: 50%;
-  /* margin-top: 1rem; */
+  padding-left: 5%;
 }
 
 /*-------SECTION 2: -------*/
 .second-section {
-  margin-top: 20px;
+  margin: 30px auto 10px auto;
   width: 80%;
 }
 
 .second-section p,
 h2 {
-  font-size: 125%;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -88,19 +94,21 @@ img {
 
 .services {
   width: 80%;
-  padding: 10px 0px 10px 0px;
+  margin: 20px auto 30px auto;
+  /* padding: 10px 0px 10px 0px; */
 }
 
 .service-heading h2 {
   text-align: left;
   font-size: 1.5rem;
-  padding-top: 20px;
+  margin-top: 10px;
 }
 
-.service-item div {
+.service-item {
   background-color: #fff;
   padding: 20px;
   border-radius: 15px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
 }
 
 .service-item p {
@@ -114,9 +122,12 @@ img {
 }
 
 .icon ion-icon {
-  border: 2px solid;
   padding: 5px;
-  border-radius: 50%;
+}
+
+/*------- SECTION 4: WHY CHOOSE US?  -------*/
+.forth-section {
+  margin-bottom: 50px;
 }
 
 /*------- SECTION 5: OUR EXPERTISE ------*/
@@ -130,9 +141,86 @@ img {
 }
 
 .logos {
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 10%;
   box-shadow: 3px 3px 3px 3px #888888;
 }
 
 /*------- SECTION 6: FORM  -------*/
+.section-six {
+  margin: 40px 0px 20px 0px;
+}
+
+.contact-form {
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  text-align: right;
+  padding: 7px;
+  font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 80%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 7px;
+  border-radius: 10%;
+  border: 1px solid #ccc;
+}
+
+.btn:hover {
+  background-color: #1abc9c;
+  transition: 1s;
+}
+
+/*------- FOOTER -------*/
+footer {
+  background-color: rgb(85, 85, 85);
+  padding: 30px;
+  font-size: 80%;
+}
+
+footer p {
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.footer-info {
+  list-style: none;
+  float: left;
+}
+
+.footer-info li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.signed {
+  color: #888;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-icon {
+  color: #888;
+  font-size: 25px;
+}
+
+.footer-icon:hover {
+  color: #3b5998;
+}
