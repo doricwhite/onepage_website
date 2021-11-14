@@ -13,6 +13,10 @@ body {
   font-weight: 300;
 }
 
+h2 {
+  color: #1abc9c;
+}
+
 .group {
   /* max-width: 1140px; */
   margin: 0 auto;
@@ -76,7 +80,46 @@ img {
   margin: 0 auto;
 }
 
-/*------- SECTION 3 -------*/
-.services {
+/*------- SECTION 3: OUR SERVICES -------*/
+
+.third-section {
   background-color: #f2f2f2;
+}
+
+.services {
+  width: 80%;
+  padding: 15px 0px 15px 0px;
+}
+
+.service-heading h2 {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.service-item p {
+  font-size: 120%;
+}
+
+.icon {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.icon ion-icon {
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+/*------- SECTION 4: WHY CHOOSE US?  ------*/
+.forth-section {
+  width: 80%;
+  border: 3px solid;
 }
